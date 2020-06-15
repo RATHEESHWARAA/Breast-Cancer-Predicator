@@ -1,6 +1,6 @@
 /* Header Styles */
 #logo {
-  max-width: 30px;
+  max-width: 30px!important;
   margin: 0 auto;
 }
 
