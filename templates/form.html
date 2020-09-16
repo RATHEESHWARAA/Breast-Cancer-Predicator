@@ -15,15 +15,15 @@
           <div class="field">
             <label class="label">Worst Perimeter</label>
             <div class="control">
-              <input class="input" name="worst_perimeter" type="number" min="50" max="252" step="0.01" value="{{ form_values['worst_perimeter'] }}" required>
+              <input class="input" name="worst_perimeter" type="number"  placeholder="(50.41-251.2) in mm" min="50" step="0.0001" value="{{ form_values['worst_perimeter'] }}" required>
             </div>
-          </div>
+          </div>  
         </div>
         <div class="column">
           <div class="field">
             <label class="label">Worst Concave Points</label>
             <div class="control">
-              <input class="input" name="worst_concave_points" type="number" min="0" step="0.0001" value="{{ form_values['worst_concave_points'] }}" required>
+              <input class="input" name="worst_concave_points" type="number"  placeholder="(0.0-0.291) in mm" min="0" step="0.0001" value="{{ form_values['worst_concave_points'] }}" required>
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@
           <div class="field">
             <label class="label">Worst Radius</label>
             <div class="control">
-              <input class="input" name="worst_radius" type="number" min="0" step="0.01" value="{{ form_values['worst_radius'] }}" required>
+              <input class="input" name="worst_radius" type="number" placeholder="(7.93-36.04) in mm" min="0" step="0.01" value="{{ form_values['worst_radius'] }}" required>
             </div>
           </div>
         </div>
@@ -42,7 +42,7 @@
           <div class="field">
             <label class="label">Mean Concave Points</label>
             <div class="control">
-              <input class="input" name="mean_concave_points" type="number" min="0" step="0.00001" value="{{ form_values['mean_concave_points'] }}" required>
+              <input class="input" name="mean_concave_points" type="number" placeholder="(0.0-0.201) in mm" min="0" step="0.00001" value="{{ form_values['mean_concave_points'] }}" required>
             </div>
           </div>
         </div>
@@ -53,7 +53,7 @@
           <div class="field">
             <label class="label">Worst Concavity</label>
             <div class="control">
-              <input class="input" name="worst_concavity" type="number" min="0" step="0.0001" value="{{ form_values['worst_concavity'] }}" required>
+              <input class="input" name="worst_concavity" type="number"placeholder="(0.0-1.252) in mm" min="0" step="0.0001" value="{{ form_values['worst_concavity'] }}" required>
             </div>
           </div>
         </div>
